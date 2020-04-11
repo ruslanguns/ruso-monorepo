@@ -3,6 +3,7 @@ lib/
 dist/
 node_modules/
 *.tsbuildinfo
+!**/**/src/lib
 
 
 # Logs

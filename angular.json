@@ -1,0 +1,26 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "cli": {
+    "packageManager": "yarn"
+  },
+  "newProjectRoot": "packages",
+  "projects": {
+    "@ruso/angular": {
+      "projectType": "library",
+      "root": "packages/angular/src",
+      "sourceRoot": "packages/angular/src",
+      "prefix": "",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "packages/angular/tsconfig.build.json",
+            "project": "packages/angular/ng-package.json"
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "@ruso/angular"
+}

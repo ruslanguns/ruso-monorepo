@@ -1,0 +1,45 @@
+{
+  "name": "@ruso/angular",
+  "version": "0.0.0",
+  "description": "Collection of tools for your Angular Projects",
+  "keywords": [
+    "angular",
+    "tools",
+    "utils"
+  ],
+  "author": {
+    "name": "Ruslan Gonzalez",
+    "email": "ruslanguns@gmail.com"
+  },
+  "homepage": "https://github.com/ruslanguns/ruso-monorepo#readme",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruslanguns/ruso-monorepo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ruslanguns/ruso-monorepo/issues"
+  },
+  "scripts": {
+    "prebuild": "rimraf lib",
+    "build": "ng build --project @ruso/angular",
+    "lint": "eslint --ext .ts ./src/",
+    "test": "jest"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "peerDependencies": {
+    "@angular/common": "^9.1.1",
+    "@angular/core": "^9.1.1",
+    "tslib": "^1.10.0"
+  }
+}
