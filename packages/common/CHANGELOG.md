@@ -11,6 +11,14 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
+## 0.0.1 (2020-04-11)
+
+**Note:** Version bump only for package @ruso/common
+
+
+
+
+
 ## 0.1.2 (2020-04-11)
 
 **Note:** Version bump only for package @ruso/common
