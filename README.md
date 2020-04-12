@@ -6,6 +6,8 @@ This monorepo has a collection of packages for your javascript and typescript pr
 
 ## Packages
 
-| Package                         | Description                                                |
-| ------------------------------- | ---------------------------------------------------------- |
-| [@ruso/common](packages/common) | This package has common utils and tools for your projects. |
+| Package                           | Description                                                        |
+| --------------------------------- | ------------------------------------------------------------------ |
+| [@ruso/common](packages/common)   | This package has common utils and tools for your projects.         |
+| [@ruso/angular](packages/angular) | This package has common utils and tools for your Angular projects. |
+| [@ruso/nestjs](packages/nestjs)   | This package has common utils and tools for your NestJS projects.  |

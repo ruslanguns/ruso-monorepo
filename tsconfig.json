@@ -1,17 +1,30 @@
 {
+  "compileOnSave": false,
   "compilerOptions": {
+    "baseUrl": "./packages",
+    "outDir": "",
     "module": "commonjs",
+    "sourceMap": true,
+    "noLib": false,
     "declaration": true,
     "removeComments": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "target": "es2017",
-    "sourceMap": true,
-    "outDir": "./lib",
-    "baseUrl": "./src",
-    "strict": false,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2015",
     "noUnusedLocals": false,
-    "lib": ["ES7"]
+    "allowJs": false,
+    "lib": ["es2018"],
+    "paths": {
+      "@ruso/common": ["common/src"],
+      "@ruso/angular": ["angular/src"],
+      "@ruso/nestjs": ["nestjs/src"]
+    }
   },
-  "exclude": ["node_modules", "lib"]
+  "exclude": ["node_modules", "lib"],
+  "angularCompilerOptions": {
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true
+  }
 }

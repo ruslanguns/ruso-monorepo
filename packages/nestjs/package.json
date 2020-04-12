@@ -1,9 +1,9 @@
 {
-  "name": "@ruso/common",
+  "name": "@ruso/nestjs",
   "version": "0.0.0",
-  "description": "An agnostic collection of tools and utils for your projects",
+  "description": "Collection of tools for your NestJs Projects",
   "keywords": [
-    "common",
+    "nestjs",
     "tools",
     "utils"
   ],
@@ -33,6 +33,11 @@
     "build": "tsc -p tsconfig.build.json",
     "lint": "eslint --ext .ts ./src/",
     "test": "jest"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^7.0.6",
+    "@nestjs/core": "^7.0.6",
+    "rxjs": "^6.5.4"
   },
   "gitHead": "2b381e961cfd72c3ce2992c601730d435bf8632b"
 }

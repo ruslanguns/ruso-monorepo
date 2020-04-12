@@ -32,6 +32,8 @@ module.exports = {
         'docs',
         'release',
         'common',
+        'angular',
+        'nestjs',
       ],
     ],
   },

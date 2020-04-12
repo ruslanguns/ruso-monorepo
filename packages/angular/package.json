@@ -1,9 +1,10 @@
 {
-  "name": "@ruso/common",
+  "name": "@ruso/angular",
   "version": "0.0.0",
-  "description": "An agnostic collection of tools and utils for your projects",
+  "description": "Collection of tools for your Angular Projects",
   "keywords": [
-    "common",
+    "angular",
+    "shared",
     "tools",
     "utils"
   ],
@@ -13,12 +14,8 @@
   },
   "homepage": "https://github.com/ruslanguns/ruso-monorepo#readme",
   "license": "MIT",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
-  "files": [
-    "lib"
-  ],
   "publishConfig": {
+    "directory": "lib",
     "access": "public"
   },
   "repository": {
@@ -30,9 +27,17 @@
   },
   "scripts": {
     "prebuild": "rimraf lib",
-    "build": "tsc -p tsconfig.build.json",
-    "lint": "eslint --ext .ts ./src/",
-    "test": "jest"
+    "build": "ng build --prod --project @ruso/angular",
+    "prepublishOnly": "lerna publish --contents lib",
+    "lint": "ng lint",
+    "test": "jest --config ./jest.config.js"
   },
-  "gitHead": "2b381e961cfd72c3ce2992c601730d435bf8632b"
+  "peerDependencies": {
+    "@angular/common": "^9.1.1",
+    "@angular/core": "^9.1.1",
+    "tslib": "^1.10.0"
+  },
+  "typeRoots": [
+    "../../node_modules/@types"
+  ]
 }
