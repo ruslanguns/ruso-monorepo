@@ -4,6 +4,7 @@
   "description": "Collection of tools for your Angular Projects",
   "keywords": [
     "angular",
+    "shared",
     "tools",
     "utils"
   ],
@@ -13,8 +14,6 @@
   },
   "homepage": "https://github.com/ruslanguns/ruso-monorepo#readme",
   "license": "MIT",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
   "files": [
     "lib"
   ],
@@ -30,16 +29,19 @@
   },
   "scripts": {
     "prebuild": "rimraf lib",
-    "build": "ng build --project @ruso/angular",
-    "lint": "eslint --ext .ts ./src/",
-    "test": "jest"
-  },
-  "directories": {
-    "lib": "lib"
+    "build": "ng build --prod --project @ruso/angular",
+    "lint": "ng lint",
+    "test": "jest --config ./jest.config.js"
   },
   "peerDependencies": {
     "@angular/common": "^9.1.1",
     "@angular/core": "^9.1.1",
     "tslib": "^1.10.0"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "typeRoots": [
+    "../../node_modules/@types"
+  ]
 }

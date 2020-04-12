@@ -20,6 +20,7 @@
   ],
   "keywords": [
     "nestjs",
+    "angular",
     "javascript",
     "common",
     "utils",
@@ -29,7 +30,7 @@
     "preversion": "yarn run format && yarn run lint && lerna run build",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
     "bootstrap": "lerna bootstrap",
-    "build": "lerna run build",
+    "build": "lerna run build --stream",
     "check": "npm-check -u",
     "commit": "git-cz",
     "format": "prettier --write \"packages/**/*.{ts,js,json}\"",
@@ -43,8 +44,8 @@
     "publish": "lerna publish"
   },
   "devDependencies": {
+    "@angular-devkit/build-angular": "~0.901.1",
     "@angular-devkit/build-ng-packagr": "^0.901.1",
-    "@angular-devkit/schematics": "^9.1.1",
     "@angular/animations": "^9.1.1",
     "@angular/cli": "~9.1.1",
     "@angular/common": "^9.1.1",
@@ -69,7 +70,7 @@
     "@nestjs/schematics": "^7.0.0",
     "@nestjs/websockets": "^7.0.0",
     "@types/express": "^4.17.0",
-    "@types/jest": "^25.1.4",
+    "@types/jest": "^25.2.1",
     "@types/node": "^13.9.3",
     "@types/socket.io": "^1.4.33",
     "@typescript-eslint/eslint-plugin": "^2.15.0",
@@ -85,6 +86,7 @@
     "fastify": "^2.13.0",
     "husky": "^4.2.3",
     "jest": "^25.1.0",
+    "jest-preset-angular": "^8.1.3",
     "lerna": "^3.20.2",
     "lint-staged": "^10.0.8",
     "ng-packagr": "^9.1.0",
@@ -98,8 +100,11 @@
     "ts-jest": "^25.2.1",
     "ts-loader": "^6.2.2",
     "ts-node": "^8.8.1",
+    "tsickle": "^0.38.1",
+    "tslib": "^1.10.0",
     "tslint": "~6.1.0",
-    "typescript": "^3.8.3"
+    "typescript": "^3.8.3",
+    "zone.js": "^0.10.3"
   },
   "engines": {
     "node": ">=10"
@@ -126,8 +131,5 @@
   },
   "resolutions": {
     "minimist": "^1.2.2"
-  },
-  "dependencies": {
-    "@angular-devkit/build-angular": "^0.901.1"
   }
 }

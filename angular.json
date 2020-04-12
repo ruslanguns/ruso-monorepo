@@ -8,15 +8,37 @@
   "projects": {
     "@ruso/angular": {
       "projectType": "library",
-      "root": "packages/angular/src",
+      "root": "packages/angular",
       "sourceRoot": "packages/angular/src",
-      "prefix": "",
+      "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
-            "tsConfig": "packages/angular/tsconfig.build.json",
+            "tsConfig": "packages/angular/tsconfig.lib.json",
             "project": "packages/angular/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "packages/angular/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-builders/jest:run",
+          "options": {
+            "main": "packages/shared/src/test.ts",
+            "tsConfig": "packages/shared/tsconfig.spec.json"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "packages/angular/tsconfig.lib.json",
+              "packages/angular/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
