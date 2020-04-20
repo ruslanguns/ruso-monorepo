@@ -28,7 +28,6 @@
   ],
   "scripts": {
     "preversion": "yarn run format && yarn run lint && lerna run build",
-    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
     "bootstrap": "lerna bootstrap",
     "build": "lerna run build --stream",
     "check": "npm-check -u",
