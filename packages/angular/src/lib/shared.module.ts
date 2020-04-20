@@ -1,9 +1,19 @@
-import { NgModule } from '@angular/core';
+import { ModuleWithProviders, NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { SharedComponent } from './shared.component';
+import { SharedService } from './shared.service';
 
 @NgModule({
   declarations: [SharedComponent],
-  imports: [],
   exports: [SharedComponent],
+  imports: [FormsModule],
+  providers: [SharedService],
 })
-export class SharedModule {}
+export class SharedModule {
+  static forRoot(): ModuleWithProviders {
+    return {
+      ngModule: SharedModule,
+      providers: [SharedService],
+    };
+  }
+}

@@ -1,16 +1,28 @@
 import { Component, OnInit } from '@angular/core';
+import { SharedService } from './shared.service';
 
 @Component({
   selector: 'lib-shared',
   template: `
-    <p>
-      shared works!
-    </p>
+    <h1>Shared library works!</h1>
+    <textarea (keyup)="onKey($event)"></textarea>
+    <br />
+    <button type="button" (click)="clean()">Clean</button>
+    <p>{{ values }}</p>
   `,
-  styles: [],
+  styles: [``],
 })
 export class SharedComponent implements OnInit {
-  constructor() {}
+  values = '';
+  constructor(private sharedService: SharedService) {}
 
   ngOnInit(): void {}
+
+  onKey(event: any) {
+    this.values = this.sharedService.beCool(event.target.value);
+  }
+
+  clean() {
+    this.values = '';
+  }
 }

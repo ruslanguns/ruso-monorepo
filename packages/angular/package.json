@@ -1,6 +1,6 @@
 {
   "name": "@ruso/angular",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Collection of tools for your Angular Projects",
   "keywords": [
     "angular",
@@ -34,6 +34,7 @@
   "peerDependencies": {
     "@angular/common": "^9.1.1",
     "@angular/core": "^9.1.1",
+    "@angular/forms": "^9.1.2",
     "tslib": "^1.10.0"
   },
   "typeRoots": [
