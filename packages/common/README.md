@@ -7,3 +7,9 @@ This is a collection of useful tools and utils for your projects.
 ### Numbers
 
 **Random Number Generator**: With this util you will be able to generate a random number
+
+Installation:
+
+```bash
+npm install @ruso/common
+```

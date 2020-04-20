@@ -1,6 +1,6 @@
 {
   "name": "@ruso/angular",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Collection of tools for your Angular Projects",
   "keywords": [
     "angular",
@@ -28,7 +28,6 @@
   "scripts": {
     "prebuild": "rimraf lib",
     "build": "ng build --prod --project @ruso/angular",
-    "prepublishOnly": "lerna publish --contents lib",
     "lint": "ng lint",
     "test": "jest --config ./jest.config.js"
   },

@@ -1,6 +1,6 @@
 {
   "name": "@ruso/common",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "An agnostic collection of tools and utils for your projects",
   "keywords": [
     "common",
@@ -31,8 +31,8 @@
   "scripts": {
     "prebuild": "rimraf lib",
     "build": "tsc -p tsconfig.build.json",
+    "postbuild": "sh postbuild.sh",
     "lint": "eslint --ext .ts ./src/",
     "test": "jest"
-  },
-  "gitHead": "2b381e961cfd72c3ce2992c601730d435bf8632b"
+  }
 }
