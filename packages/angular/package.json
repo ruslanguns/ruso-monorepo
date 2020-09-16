@@ -1,6 +1,6 @@
 {
   "name": "@ruso/angular",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Collection of tools for your Angular Projects",
   "keywords": [
     "angular",
@@ -36,5 +36,6 @@
   },
   "typeRoots": [
     "../../node_modules/@types"
-  ]
+  ],
+  "gitHead": "23b770fd070fb9cacabe28b4a070cc4651cb08cd"
 }
