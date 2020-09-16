@@ -71,7 +71,7 @@
     "@types/express": "4.17.8",
     "@types/jest": "25.2.1",
     "@types/node": "13.11.1",
-    "@types/socket.io": "1.4.40",
+    "@types/socket.io": "1.4.42",
     "@typescript-eslint/eslint-plugin": "2.27.0",
     "@typescript-eslint/parser": "2.27.0",
     "codelyzer": "5.2.2",

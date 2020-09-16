@@ -2846,10 +2846,10 @@
     "@types/express-serve-static-core" "*"
     "@types/mime" "*"
 
-"@types/socket.io@1.4.40":
-  version "1.4.40"
-  resolved "https://registry.yarnpkg.com/@types/socket.io/-/socket.io-1.4.40.tgz#4f6955a8bdab66f8af47edcebea038f89aea7ad2"
-  integrity sha512-B9luG4IRhql12JGoYeTlCTlizRAtaWmxu9dSyY+AOWO2pEMFFajZnzqF65GH8GVFsyJzfmXqnfdvPlS+mAM/Xw==
+"@types/socket.io@1.4.42":
+  version "1.4.42"
+  resolved "https://registry.yarnpkg.com/@types/socket.io/-/socket.io-1.4.42.tgz#cd2750542d95db888e161b88c85d38162f21fbbb"
+  integrity sha512-2SnWce3DiBVkswhJgpo4FSoMTAAHksxYOFXaBZe4icrrrvpXee8yUPOZT77xzWvLZw63QpREUHHWzM4lQpHjtA==
   dependencies:
     "@types/node" "*"
 
