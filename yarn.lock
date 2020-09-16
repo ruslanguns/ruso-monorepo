@@ -3785,6 +3785,15 @@ avvio@^6.3.1:
     debug "^4.0.0"
     fastq "^1.6.0"
 
+avvio@^6.4.1:
+  version "6.5.0"
+  resolved "https://registry.yarnpkg.com/avvio/-/avvio-6.5.0.tgz#d2cf119967fe90d2156afc29de350ced800cdaab"
+  integrity sha512-BmzcZ7gFpyFJsW8G+tfQw8vJNUboA9SDkkHLZ9RAALhvw/rplfWwni8Ee1rA11zj/J7/E5EvZmweusVvTHjWCA==
+  dependencies:
+    archy "^1.0.0"
+    debug "^4.0.0"
+    fastq "^1.6.0"
+
 aws-sign2@~0.7.0:
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/aws-sign2/-/aws-sign2-0.7.0.tgz#b46e890934a9591f2d2f6f86d7e6a9f1b3fe76a8"
@@ -6983,6 +6992,26 @@ fastify@2.13.0:
     secure-json-parse "^2.1.0"
     tiny-lru "^7.0.2"
 
+fastify@2.15.1:
+  version "2.15.1"
+  resolved "https://registry.yarnpkg.com/fastify/-/fastify-2.15.1.tgz#195a068bca87c7b57a83fe81f0aa66e86c6a3992"
+  integrity sha512-pEE1pa5j/vtZeZTbPpFgsJgzLbThcYgiLDw2yZIG8qNZ5LkF1Ew2vbv9k3nTXNxGEPYFBbyNTCKRSj3JbX+FhA==
+  dependencies:
+    abstract-logging "^2.0.0"
+    ajv "^6.12.0"
+    avvio "^6.4.1"
+    fast-json-stringify "^1.18.0"
+    find-my-way "^2.2.2"
+    flatstr "^1.0.12"
+    light-my-request "^3.7.3"
+    middie "^4.1.0"
+    pino "^5.17.0"
+    proxy-addr "^2.0.6"
+    readable-stream "^3.6.0"
+    rfdc "^1.1.2"
+    secure-json-parse "^2.1.0"
+    tiny-lru "^7.0.2"
+
 fastparse@^1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/fastparse/-/fastparse-1.1.2.tgz#91728c5a5942eced8531283c79441ee4122c35a9"
@@ -9636,6 +9665,16 @@ light-my-request@^3.7.2:
   version "3.7.4"
   resolved "https://registry.yarnpkg.com/light-my-request/-/light-my-request-3.7.4.tgz#95d3ef96450cad0d643f7448ca7e81f9cdef8a40"
   integrity sha512-xiAMJBW3Zaxz+C42Uo0N6spUqhcSsmB9IqxE/VF+J7HWuxsRPeOzeY2SOMtTR0dbsX/RVpxGAFHR0uB6vuTs8A==
+  dependencies:
+    ajv "^6.10.2"
+    cookie "^0.4.0"
+    readable-stream "^3.4.0"
+    set-cookie-parser "^2.4.1"
+
+light-my-request@^3.7.3:
+  version "3.8.0"
+  resolved "https://registry.yarnpkg.com/light-my-request/-/light-my-request-3.8.0.tgz#7da96786e4d479371b25cfd524ee05d5d583dae8"
+  integrity sha512-cIOWmNsgoStysmkzcv2EwvLwMb2hEm6oqKMerG/b5ey9F0we2Qony8cAZgBktmGPYUvPyKsDCzMcYU6fXbpWew==
   dependencies:
     ajv "^6.10.2"
     cookie "^0.4.0"
