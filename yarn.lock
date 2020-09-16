@@ -1251,10 +1251,10 @@
   resolved "https://registry.yarnpkg.com/@golevelup/nestjs-testing/-/nestjs-testing-0.1.2.tgz#314e87e634d581797d086c9f5f45dce802ad919a"
   integrity sha512-7TOpI6E86GBE93DJoCqavOfycAMPjnZDfcpdBrm/aWUoR/oDxHjhTr1R8NGVY4+iHY5wDwEXG7mcDkDEWQznfQ==
 
-"@golevelup/ts-jest@0.2.1":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@golevelup/ts-jest/-/ts-jest-0.2.1.tgz#ec00d2c8d7b6519d758dd61af80a47d43db46f9a"
-  integrity sha512-Xwhmq6tRcsHyTnkxRBRCbSACSXFdiU2tUgXaxckELfeHQMyrFnoqWGrF4cPb/EjpVdjmD8nY9Ce2tC8s5wqIGw==
+"@golevelup/ts-jest@0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@golevelup/ts-jest/-/ts-jest-0.3.0.tgz#7283286304cf97b17360e78e3ad1d66e719c432f"
+  integrity sha512-/PRdR75+w3slJ/kye8TZqhVCaKymd8xpKChk2CETtsqrqbCCtmIq2ujMc8j7+vhI42umcgDUyyYpVHrnIDsIcw==
 
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.0.0"

@@ -57,7 +57,7 @@
     "@commitlint/cli": "8.3.5",
     "@commitlint/config-conventional": "8.3.4",
     "@golevelup/nestjs-testing": "0.1.2",
-    "@golevelup/ts-jest": "0.2.1",
+    "@golevelup/ts-jest": "0.3.0",
     "@nestjs/cli": "7.1.2",
     "@nestjs/common": "7.0.7",
     "@nestjs/core": "7.0.7",
