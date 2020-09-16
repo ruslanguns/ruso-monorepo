@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.2](https://github.com/ruslanguns/ruso-monorepo/compare/@ruso/nestjs@0.0.1...@ruso/nestjs@0.0.2) (2020-09-16)
+
+### Build System
+
+- bump package update and bugfixes ([f6a2e01](https://github.com/ruslanguns/ruso-monorepo/commit/f6a2e01a75cf18921b6a4a5090d1f8dc473b23d9))
+
+### BREAKING CHANGES
+
+- Will require a upgrade and package reinstallation.
+
 ## 0.0.1 (2020-04-20)
 
 ### Features
