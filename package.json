@@ -68,10 +68,10 @@
     "@nestjs/platform-ws": "7.4.4",
     "@nestjs/schematics": "7.1.2",
     "@nestjs/websockets": "7.4.4",
+    "@types/express": "4.17.8",
     "@types/jest": "26.0.13",
     "@types/node": "14.10.2",
     "@types/socket.io": "2.1.11",
-    "@types/express": "4.17.8",
     "@typescript-eslint/eslint-plugin": "4.1.1",
     "@typescript-eslint/parser": "4.1.1",
     "codelyzer": "6.0.0",
@@ -130,6 +130,10 @@
   },
   "resolutions": {
     "minimist": "^1.2.2",
-    "@types/express/@types/express-serve-static-core": "4.17.8"
+    "@types/express/@types/express-serve-static-core": "4.17.8",
+    "axios": "^0.19.0"
+  },
+  "dependencies": {
+    "@angular/forms": "^10.1.1"
   }
 }
