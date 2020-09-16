@@ -32,7 +32,7 @@
     "test": "jest --config ./jest.config.js"
   },
   "dependencies": {
-    "tslib": "^2.0.0"
+    "tslib": "2.0.1"
   },
   "typeRoots": [
     "../../node_modules/@types"
