@@ -31,11 +31,13 @@
     "lint": "ng lint",
     "test": "jest --config ./jest.config.js"
   },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
   "peerDependencies": {
     "@angular/common": "^9.1.1",
     "@angular/core": "^9.1.1",
-    "@angular/forms": "^9.1.2",
-    "tslib": "^1.10.0"
+    "@angular/forms": "^9.1.2"
   },
   "typeRoots": [
     "../../node_modules/@types"
