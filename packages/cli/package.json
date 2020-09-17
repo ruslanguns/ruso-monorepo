@@ -40,6 +40,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@ruso/common": "0.0.1"
-  }
+    "@ruso/common": "^0.0.2"
+  },
+  "gitHead": "393080d0e14b6489d9c78ce451d575d47ea3dc53"
 }

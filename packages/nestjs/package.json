@@ -1,6 +1,6 @@
 {
   "name": "@ruso/nestjs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Collection of tools for your NestJs Projects",
   "keywords": [
     "nestjs",
@@ -40,5 +40,5 @@
     "@nestjs/core": "7.4.4",
     "rxjs": "6.6.3"
   },
-  "gitHead": "23b770fd070fb9cacabe28b4a070cc4651cb08cd"
+  "gitHead": "a196aea7df164ddb6a42c50078c2f3c67676fe6d"
 }

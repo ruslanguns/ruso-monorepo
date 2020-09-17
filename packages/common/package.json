@@ -1,6 +1,6 @@
 {
   "name": "@ruso/common",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An agnostic collection of tools and utils for your projects",
   "keywords": [
     "common",
@@ -34,5 +34,6 @@
     "postbuild": "sh postbuild.sh",
     "lint": "eslint --ext .ts ./src/",
     "test": "jest"
-  }
+  },
+  "gitHead": "b22b81a71efbe299648e674bca47b29d5f64ab92"
 }

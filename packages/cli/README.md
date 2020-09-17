@@ -1,15 +1,15 @@
-# Common utils for coding easy
+# @ruso/cli - Collection of tools from your Command Line Interface
 
-This is a collection of useful tools and utils for your projects.
+This package will provide you generators, helpers and tooling for getting the most of your command line interface
 
-## Utils
+## Commands
 
-### Numbers
+### fakeGenerator
 
-**Random Number Generator**: With this util you will be able to generate a random number
+This command will generate for you a json file with fake data. If you want to get more information about this command please write in your console `fakeGenerator --help`
 
 Installation:
 
 ```bash
-npm install @ruso/cli
+npm install -g @ruso/cli
 ```
