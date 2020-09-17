@@ -1,6 +1,6 @@
 {
   "name": "@ruso/cli",
-  "version": "0.0.1",
+  "version": "0.0.2-rc.1",
   "description": "Tooling via CLI (Command Line Interface) like schematics, generators, helpers and more.",
   "keywords": [
     "common",
@@ -40,7 +40,12 @@
     "test": "jest"
   },
   "dependencies": {
-    "@ruso/common": "^0.0.2"
+    "@ruso/common": "^0.0.2",
+    "yargs": "16.0.3",
+    "inquirer": "7.3.3",
+    "chalk": "4.1.0",
+    "figlet": "1.5.0",
+    "faker": "5.1.0"
   },
   "gitHead": "393080d0e14b6489d9c78ce451d575d47ea3dc53"
 }
