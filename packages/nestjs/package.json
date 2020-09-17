@@ -1,6 +1,6 @@
 {
   "name": "@ruso/nestjs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Collection of tools for your NestJs Projects",
   "keywords": [
     "nestjs",

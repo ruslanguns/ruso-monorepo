@@ -1,6 +1,6 @@
 {
   "name": "@ruso/cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Tooling via CLI (Command Line Interface) like schematics, generators, helpers and more.",
   "keywords": [
     "common",
@@ -40,6 +40,6 @@
     "test": "jest"
   },
   "dependencies": {
-    "@ruso/common": "0.0.1"
+    "@ruso/common": "^0.0.2"
   }
 }
