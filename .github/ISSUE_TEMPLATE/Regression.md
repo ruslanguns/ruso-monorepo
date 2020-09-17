@@ -32,20 +32,6 @@ const your = (code) => here;
 
 <pre><code>
 @ruso/common version: X.Y.Z
-Affected Platform:
-[] Express
-[] Fastify
-[] Graphql
-[] Graphql-Fastify
-[] gRPC
-[] Kafka
-[] MQTT
-[] NATS
-[] RabbitMQ
-[] Redis
-[] Socket.io
-[] TCP
-[] WS
 
 For Tooling issues:
 - Node version: XX  <!-- run `node --version` -->

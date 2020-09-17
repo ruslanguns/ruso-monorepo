@@ -15,12 +15,7 @@
     "target": "es2015",
     "noUnusedLocals": false,
     "allowJs": false,
-    "lib": ["es2018"],
-    "paths": {
-      "@ruso/common": ["common/src"],
-      "@ruso/angular": ["angular/src"],
-      "@ruso/nestjs": ["nestjs/src"]
-    }
+    "lib": ["es2018"]
   },
   "exclude": ["node_modules", "lib"],
   "angularCompilerOptions": {

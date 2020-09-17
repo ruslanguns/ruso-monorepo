@@ -34,6 +34,8 @@ module.exports = {
         'common',
         'angular',
         'nestjs',
+        'common',
+        'cli',
       ],
     ],
   },

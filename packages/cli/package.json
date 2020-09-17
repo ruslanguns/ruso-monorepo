@@ -1,0 +1,45 @@
+{
+  "name": "@ruso/cli",
+  "version": "0.0.1",
+  "description": "Tooling via CLI (Command Line Interface) like schematics, generators, helpers and more.",
+  "keywords": [
+    "common",
+    "tools",
+    "utils"
+  ],
+  "author": {
+    "name": "Ruslan Gonzalez",
+    "email": "ruslanguns@gmail.com"
+  },
+  "homepage": "https://github.com/ruslanguns/ruso-monorepo#readme",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10.13.0",
+    "npm": ">= 6.11.0"
+  },
+  "bin": {
+    "fakeGenerator": "bin/fakeGenerator.ts"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruslanguns/ruso-monorepo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ruslanguns/ruso-monorepo/issues"
+  },
+  "scripts": {
+    "prebuild": "rimraf lib",
+    "build": "tsc -p tsconfig.build.json",
+    "lint": "eslint --ext .ts ./",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@ruso/common": "0.0.1"
+  }
+}

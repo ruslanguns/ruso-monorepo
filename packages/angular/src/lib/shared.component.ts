@@ -18,11 +18,11 @@ export class SharedComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  onKey(event: any) {
+  onKey(event: any): void {
     this.values = this.sharedService.beCool(event.target.value);
   }
 
-  clean() {
+  clean(): void {
     this.values = '';
   }
 }
