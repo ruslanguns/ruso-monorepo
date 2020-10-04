@@ -36,8 +36,7 @@
   "scripts": {
     "prebuild": "rimraf lib",
     "build": "tsc -p tsconfig.build.json",
-    "lint": "eslint --ext .ts ./",
-    "test": "jest"
+    "lint": "eslint --ext .ts ./"
   },
   "dependencies": {
     "@ruso/common": "^0.0.2",

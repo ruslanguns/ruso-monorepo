@@ -1,1 +1,1 @@
-module.exports = { preset: '../../jest.config.js' };
+// module.exports = { preset: '../../jest.config.js' };

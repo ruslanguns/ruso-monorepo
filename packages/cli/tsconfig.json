@@ -4,5 +4,5 @@
     "rootDir": "./",
     "outDir": "lib"
   },
-  "include": ["./test", "./bin"]
+  "include": ["./bin"]
 }
