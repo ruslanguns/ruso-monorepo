@@ -23,21 +23,18 @@ export class Camelify implements PipeTransform {
     }
 
     return input
-      .split('-')
-      .map((word) => {
-        const firstChar = word.charAt(0);
-        return word.replace(firstChar, firstChar.toUpperCase());
+      .toString()
+      .trim()
+      .toLowerCase()
+      .replace(/[^\w-]+/g, ' ') // Add spaces to all non-word chars
+      .split(' ')
+      .map((word, index) => {
+        if (index != 0) {
+          const firstChar = word.charAt(0);
+          return word.replace(firstChar, firstChar.toUpperCase());
+        }
+        return word;
       })
       .join('');
-
-    // return input
-    //     .toString()
-    //     .toLowerCase()
-    //     .replace(/[^\w-]+/g, ' ') // Add spaces to all non-word chars
-    //     .trim()
-    //     .replace(/^-+/, '') // Trim - from start of text
-    //     .replace(/-+$/, '') // Trim - from end of text
-    //     .replace(/-+/g, '') // Replace one or more -
-    //     .replace(/\s+/g, '-');
   }
 }
