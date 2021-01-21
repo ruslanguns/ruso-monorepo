@@ -1416,10 +1416,10 @@
   resolved "https://registry.yarnpkg.com/@golevelup/nestjs-testing/-/nestjs-testing-0.1.2.tgz#314e87e634d581797d086c9f5f45dce802ad919a"
   integrity sha512-7TOpI6E86GBE93DJoCqavOfycAMPjnZDfcpdBrm/aWUoR/oDxHjhTr1R8NGVY4+iHY5wDwEXG7mcDkDEWQznfQ==
 
-"@golevelup/ts-jest@0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@golevelup/ts-jest/-/ts-jest-0.3.0.tgz#7283286304cf97b17360e78e3ad1d66e719c432f"
-  integrity sha512-/PRdR75+w3slJ/kye8TZqhVCaKymd8xpKChk2CETtsqrqbCCtmIq2ujMc8j7+vhI42umcgDUyyYpVHrnIDsIcw==
+"@golevelup/ts-jest@0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@golevelup/ts-jest/-/ts-jest-0.3.1.tgz#d4ac1753b50b7a21985b8a2fdafb3b120481098e"
+  integrity sha512-Tv9+czaB30o6NaKfrW1IA+TpPC2mh2Z/INRCwZZ6Rh3P6kHvkPYQ7aWba1v7mOkXMsvLyCAGfvH9FD2ew4t/IQ==
 
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
@@ -2922,9 +2922,9 @@
   integrity sha512-EYNwp3bU+98cpU4lAWYYL7Zz+2gryWH1qbdDTidVd6hkiR6weksdbMadyXKXNPEkQFhXM+hVO9ZygomHXp+AIw==
 
 "@types/express-serve-static-core@*":
-  version "4.17.12"
-  resolved "https://registry.yarnpkg.com/@types/express-serve-static-core/-/express-serve-static-core-4.17.12.tgz#9a487da757425e4f267e7d1c5720226af7f89591"
-  integrity sha512-EaEdY+Dty1jEU7U6J4CUWwxL+hyEGMkO5jan5gplfegUgCUsIUWqXxqw47uGjimeT4Qgkz/XUfwoau08+fgvKA==
+  version "4.17.17"
+  resolved "https://registry.yarnpkg.com/@types/express-serve-static-core/-/express-serve-static-core-4.17.17.tgz#6ba02465165b6c9c3d8db3a28def6b16fc9b70f5"
+  integrity sha512-YYlVaCni5dnHc+bLZfY908IG1+x5xuibKZMGv8srKkvtul3wUuanYvpIj9GXXoWkQbaAdR+kgX46IETKUALWNQ==
   dependencies:
     "@types/node" "*"
     "@types/qs" "*"
