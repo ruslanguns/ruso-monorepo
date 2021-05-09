@@ -2922,9 +2922,9 @@
   integrity sha512-EYNwp3bU+98cpU4lAWYYL7Zz+2gryWH1qbdDTidVd6hkiR6weksdbMadyXKXNPEkQFhXM+hVO9ZygomHXp+AIw==
 
 "@types/express-serve-static-core@*":
-  version "4.17.12"
-  resolved "https://registry.yarnpkg.com/@types/express-serve-static-core/-/express-serve-static-core-4.17.12.tgz#9a487da757425e4f267e7d1c5720226af7f89591"
-  integrity sha512-EaEdY+Dty1jEU7U6J4CUWwxL+hyEGMkO5jan5gplfegUgCUsIUWqXxqw47uGjimeT4Qgkz/XUfwoau08+fgvKA==
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/@types/express-serve-static-core/-/express-serve-static-core-4.17.19.tgz#00acfc1632e729acac4f1530e9e16f6dd1508a1d"
+  integrity sha512-DJOSHzX7pCiSElWaGR8kCprwibCB/3yW6vcT8VG3P0SJjnv19gnWG/AZMfM60Xj/YJIp/YCaDHyvzsFVeniARA==
   dependencies:
     "@types/node" "*"
     "@types/qs" "*"
@@ -11145,18 +11145,18 @@ next-tick@~1.0.0:
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
   integrity sha1-yobR/ogoFpsBICCOPchCS524NCw=
 
-ng-packagr@10.1.0:
-  version "10.1.0"
-  resolved "https://registry.yarnpkg.com/ng-packagr/-/ng-packagr-10.1.0.tgz#a2fc0f86f5f8895f811597d33d943f93c7c77c17"
-  integrity sha512-KXyajkAyY/51iMJPVezDybb5Bn1rtl/JDGC4w9jjIdeL2Ip+KTMDGsqpc+5nQm/vnasZcJ/Xj2a+0VOwrbyVWg==
+ng-packagr@10.1.1:
+  version "10.1.1"
+  resolved "https://registry.yarnpkg.com/ng-packagr/-/ng-packagr-10.1.1.tgz#d9470cc3a413e0137ecd83b8b39f9fde728801b5"
+  integrity sha512-LjCUXenF0cOCKUl0140CH6ehKMgoxALo/qhqDSa34Gs3gYkxASriUZL2oF6B9xaXXCmHAChp+ZPUElvFeychlA==
   dependencies:
     "@rollup/plugin-commonjs" "^15.0.0"
     "@rollup/plugin-json" "^4.0.0"
     "@rollup/plugin-node-resolve" "^9.0.0"
     ajv "^6.12.3"
+    ansi-colors "^4.1.1"
     autoprefixer "^9.6.5"
     browserslist "^4.7.0"
-    chalk "^4.0.0"
     chokidar "^3.2.1"
     commander "^6.0.0"
     cssnano-preset-default "^4.0.7"
