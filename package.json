@@ -85,7 +85,7 @@
     "fastify": "3.20.1",
     "husky": "4.3.0",
     "jest": "26.4.2",
-    "jest-preset-angular": "8.3.1",
+    "jest-preset-angular": "8.4.0",
     "lerna": "3.22.1",
     "lint-staged": "10.4.0",
     "ng-packagr": "10.1.1",
