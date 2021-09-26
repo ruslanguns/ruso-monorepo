@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.1.0](https://github.com/ruslanguns/ruso-monorepo/compare/@ruso/angular@0.0.4...@ruso/angular@0.1.0) (2021-09-26)
+
+### Bug Fixes
+
+- **deps:** pin dependencies ([3fbda72](https://github.com/ruslanguns/ruso-monorepo/commit/3fbda72176d5bb5c509f864e60db3c1bf542b079))
+
+### Build System
+
+- bump package update and bugfixes ([f6a2e01](https://github.com/ruslanguns/ruso-monorepo/commit/f6a2e01a75cf18921b6a4a5090d1f8dc473b23d9))
+
+### Features
+
+- added camelify pipe ([4210cc8](https://github.com/ruslanguns/ruso-monorepo/commit/4210cc8003565b3fdc2e350565b786efd636623e))
+- **cli:** @ruso/cli implemented with fakeGenerator CLI ([e180dc0](https://github.com/ruslanguns/ruso-monorepo/commit/e180dc0ed20969675f43823a7a4a3ed156827368))
+
+### BREAKING CHANGES
+
+- Will require a upgrade and package reinstallation.
+
 ## [0.0.6](https://github.com/ruslanguns/ruso-monorepo/compare/@ruso/angular@0.0.4...@ruso/angular@0.0.6) (2020-09-17)
 
 ### Bug Fixes
