@@ -28,11 +28,7 @@
   "scripts": {
     "prebuild": "rimraf lib",
     "build": "ng build --prod --project @ruso/angular",
-    "lint": "ng lint",
     "test": "jest --config ./jest.config.js"
-  },
-  "dependencies": {
-    "tslib": "2.0.1"
   },
   "typeRoots": [
     "../../node_modules/@types"

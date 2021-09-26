@@ -22,4 +22,10 @@ module.exports = {
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/no-var-requires': 'off',
   },
+  ignorePatterns: ['*.d.ts', 'dist/*', '**/node_modules/*', 'lib/*', '*.js'],
+  globals: {
+    WeakSet: 'readonly',
+    Promise: 'readonly',
+    Reflect: 'readonly',
+  },
 };

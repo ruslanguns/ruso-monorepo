@@ -1,7 +1,7 @@
 {
   "name": "ruso-monorepo",
   "version": "0.0.0",
-  "private": true,
+  "private": false,
   "license": "MIT",
   "description": "This workspace contains the base of a collection of packages.",
   "author": {
@@ -122,6 +122,7 @@
     "axios": "^0.21.0"
   },
   "dependencies": {
+    "@angular/forms": "^12.2.7",
     "@ruso/common": "^0.0.2",
     "chalk": "4.1.2",
     "clear": "0.1.0",
