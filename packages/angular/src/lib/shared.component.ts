@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { SharedService } from './shared.service';
 
 @Component({
@@ -12,11 +12,9 @@ import { SharedService } from './shared.service';
   `,
   styles: [``],
 })
-export class SharedComponent implements OnInit {
+export class SharedComponent {
   values = '';
   constructor(private sharedService: SharedService) {}
-
-  ngOnInit(): void {}
 
   onKey(event: any): void {
     this.values = this.sharedService.beCool(event.target.value);

@@ -15,7 +15,7 @@
     "target": "es2015",
     "noUnusedLocals": false,
     "allowJs": false,
-    "lib": ["es2018"]
+    "lib": ["es2018", "DOM"]
   },
   "exclude": ["node_modules", "lib"],
   "angularCompilerOptions": {
