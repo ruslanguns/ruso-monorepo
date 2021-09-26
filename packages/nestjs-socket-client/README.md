@@ -77,10 +77,11 @@ export class Service {
 
 ## Thanks
 
-This repo is an extended version of [another project](https://github.com/danocmx/nestjs-socket.io-client) built by [[@danocmx](https://github.com/danocmx), so special thanks to him this contribution.
+This repository is an extended version of [another project](https://github.com/danocmx/nestjs-socket.io-client) built by [@danocmx](https://github.com/danocmx), so special thanks to him for this contribution.
 
 ## Author
 
-- Ruslan Gonzalez
+Ruslan Gonzalez
+
 - Twitter: [@ruslangonzalez](https://twitter.com/ruslangonzalez)
 - GitHub: [@ruslanguns](https://github.com/ruslanguns)
