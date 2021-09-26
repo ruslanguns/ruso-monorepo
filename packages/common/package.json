@@ -1,6 +1,6 @@
 {
   "name": "@ruso/common",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An agnostic collection of tools and utils for your projects",
   "keywords": [
     "common",
