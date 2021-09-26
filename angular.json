@@ -4,7 +4,7 @@
   "cli": {
     "packageManager": "yarn"
   },
-  "newProjectRoot": "packages",
+  "newProjectRoot": "integration",
   "projects": {
     "@ruso/angular": {
       "projectType": "library",
@@ -29,16 +29,6 @@
           "options": {
             "main": "packages/shared/src/test.ts",
             "tsConfig": "packages/shared/tsconfig.spec.json"
-          }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "packages/angular/tsconfig.lib.json",
-              "packages/angular/tsconfig.spec.json"
-            ],
-            "exclude": ["**/node_modules/**"]
           }
         }
       }

@@ -27,6 +27,7 @@
     "tools"
   ],
   "scripts": {
+    "ng": "ng",
     "preversion": "yarn run format && yarn run lint && lerna run build",
     "bootstrap": "lerna bootstrap",
     "build": "lerna run build --stream",
@@ -44,7 +45,7 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "12.2.7",
+    "@angular-devkit/build-angular": "^12.2.7",
     "@angular-devkit/build-ng-packagr": "0.1002.0",
     "@angular/animations": "12.2.7",
     "@angular/cli": "12.2.7",
