@@ -6,12 +6,13 @@ This monorepo has a collection of packages for your javascript and typescript pr
 
 ## Packages
 
-| Package                           | Description                                                           |
-| --------------------------------- | --------------------------------------------------------------------- |
-| [@ruso/cli](packages/cli)         | This package has tools from your CLI, as generators, helpers and more |
-| [@ruso/common](packages/common)   | This package has common utils and tools for your projects.            |
-| [@ruso/angular](packages/angular) | This package has common utils and tools for your Angular projects.    |
-| [@ruso/nestjs](packages/nestjs)   | This package has common utils and tools for your NestJS projects.     |
+| Package                                                     | Description                                                           |
+| ----------------------------------------------------------- | --------------------------------------------------------------------- |
+| [@ruso/cli](packages/cli)                                   | This package has tools from your CLI, as generators, helpers and more |
+| [@ruso/common](packages/common)                             | This package has common utils and tools for your projects.            |
+| [@ruso/angular](packages/angular)                           | This package has common utils and tools for your Angular projects.    |
+| [@ruso/nestjs](packages/nestjs)                             | This package has common utils and tools for your NestJS projects.     |
+| [@ruso/nestjs-socket-client](packages/nestjs-socket-client) | A minimal Socket-IO client wrapper for your NestJS applications       |
 
 ## Autor
 

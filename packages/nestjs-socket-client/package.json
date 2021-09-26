@@ -1,0 +1,44 @@
+{
+  "name": "@ruso/nestjs-socket-client",
+  "version": "0.0.0",
+  "description": "A minimal Socket-IO client wrapper for your NestJS applications",
+  "keywords": [
+    "nestjs",
+    "socket-io",
+    "socket client",
+    "socket.io client",
+    "socket.io-client"
+  ],
+  "author": {
+    "name": "Ruslan Gonzalez",
+    "email": "ruslanguns@gmail.com"
+  },
+  "homepage": "https://github.com/ruslanguns/ruso-monorepo#readme",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruslanguns/ruso-monorepo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ruslanguns/ruso-monorepo/issues"
+  },
+  "scripts": {
+    "prebuild": "rimraf lib",
+    "build": "tsc -p tsconfig.build.json",
+    "postbuild": "sh postbuild.sh",
+    "lint": "eslint --ext .ts ./src/",
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "socket.io-client": "*"
+  },
+  "gitHead": "a196aea7df164ddb6a42c50078c2f3c67676fe6d"
+}

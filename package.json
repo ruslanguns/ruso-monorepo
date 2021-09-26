@@ -1,7 +1,7 @@
 {
   "name": "ruso-monorepo",
   "version": "0.0.0",
-  "private": false,
+  "private": true,
   "license": "MIT",
   "description": "This workspace contains the base of a collection of packages.",
   "author": {
@@ -129,6 +129,7 @@
     "faker": "5.5.3",
     "figlet": "1.5.2",
     "inquirer": "8.1.5",
+    "socket.io-client": "^4.2.0",
     "yargs": "17.2.1"
   }
 }
