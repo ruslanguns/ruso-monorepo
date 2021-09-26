@@ -41,7 +41,7 @@
   "dependencies": {
     "@ruso/common": "^0.0.2",
     "yargs": "16.0.3",
-    "inquirer": "7.3.3",
+    "inquirer": "8.1.5",
     "chalk": "4.1.2",
     "figlet": "1.5.2",
     "faker": "5.5.3",
