@@ -38,7 +38,7 @@
   "peerDependencies": {
     "@nestjs/common": "7.4.4",
     "@nestjs/core": "7.4.4",
-    "rxjs": "6.6.3"
+    "rxjs": "6.6.7"
   },
   "gitHead": "a196aea7df164ddb6a42c50078c2f3c67676fe6d"
 }
