@@ -1,6 +1,6 @@
 {
   "name": "@ruso/nestjs-socket-client",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A minimal Socket-IO client wrapper for your NestJS applications",
   "keywords": [
     "nestjs",
