@@ -92,7 +92,7 @@
     "supertest": "6.1.6",
     "ts-jest": "27.0.5",
     "ts-loader": "9.2.6",
-    "ts-node": "10.2.1",
+    "ts-node": "10.9.1",
     "tsickle": "0.43.0",
     "tslib": "2.3.1",
     "tslint": "6.1.3",
