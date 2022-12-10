@@ -3,13 +3,16 @@ name: CI
 on:
   pull_request:
     branches:
-      - 'master'
+      - master
+    paths:
+      - 'integration/**'
+      - 'packages/**'
   push:
     branches:
-      - '*'
-  paths:
-    - 'integration/**'
-    - 'packages/**'
+      - master
+    paths:
+      - 'integration/**'
+      - 'packages/**'
 
 jobs:
   test:
