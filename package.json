@@ -37,10 +37,6 @@
     "lint": "eslint \"{packages, integration, src,apps,libs,test}/**/*.ts\" --fix",
     "setup": "yarn && yarn build",
     "test": "lerna run test",
-    "test:watch": "lerna run test:watch",
-    "test:cov": "lerna run test:cov",
-    "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
-    "test:e2e": "jest --config ./test/jest-e2e.json",
     "publish": "lerna publish",
     "prepare": "husky install"
   },

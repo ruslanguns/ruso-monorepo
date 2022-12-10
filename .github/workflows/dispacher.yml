@@ -1,0 +1,16 @@
+name: 'CI & CD Dispatch'
+
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        type: choice
+        description: 'Select an option'
+        required: true
+        options:
+        - ci
+
+jobs:
+  app-test:
+    if: github.event.inputs.action == 'ci'
+    uses: ruslanguns/ruso-monorepo/.github/workflows/ci.yml@master
