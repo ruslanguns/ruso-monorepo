@@ -84,6 +84,7 @@ Output:
 - Simplifying the manipulation of complex JSON data.
 - Generating accessor paths for JSON data.
 - Debugging or inspecting JSON data.
+
   > These use cases illustrate some of the potential benefits of using the flattenJSON library, such as the ability to extract specific data from a JSON object, to transform the data for use in different contexts, and to simplify the manipulation of complex JSON data. The flattenJSON function can also be useful for generating accessor paths for JSON data, and for debugging or inspecting JSON data.
 
 ## Inspiration
