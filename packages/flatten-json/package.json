@@ -1,6 +1,6 @@
 {
   "name": "@ruso/flatten-json",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "FlattenJSON is a utility function for flattening JSON objects into a single-level object with keys representing the accessor path to the value",
   "keywords": [
     "common",
