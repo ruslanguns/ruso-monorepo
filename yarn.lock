@@ -1714,10 +1714,10 @@
   resolved "https://registry.yarnpkg.com/@golevelup/nestjs-testing/-/nestjs-testing-0.1.2.tgz#314e87e634d581797d086c9f5f45dce802ad919a"
   integrity sha512-7TOpI6E86GBE93DJoCqavOfycAMPjnZDfcpdBrm/aWUoR/oDxHjhTr1R8NGVY4+iHY5wDwEXG7mcDkDEWQznfQ==
 
-"@golevelup/ts-jest@0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@golevelup/ts-jest/-/ts-jest-0.3.1.tgz#d4ac1753b50b7a21985b8a2fdafb3b120481098e"
-  integrity sha512-Tv9+czaB30o6NaKfrW1IA+TpPC2mh2Z/INRCwZZ6Rh3P6kHvkPYQ7aWba1v7mOkXMsvLyCAGfvH9FD2ew4t/IQ==
+"@golevelup/ts-jest@0.3.4":
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/@golevelup/ts-jest/-/ts-jest-0.3.4.tgz#b1da56344136f9d4ebce03676c099b5214bb7c29"
+  integrity sha512-UXas4+20gNmYfVR7DTJ9iRppy00o0ElqQrRQyn9cF3Gq90iM1Xx1lKvipTEe5NniHDD9FiMZNweOfB+9ebZRZA==
 
 "@humanwhocodes/config-array@^0.5.0":
   version "0.5.0"
