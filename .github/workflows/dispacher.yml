@@ -1,4 +1,4 @@
-name: 'CI & CD Dispatch'
+name: 'CI & CD Dispatcher'
 
 on:
   workflow_dispatch:
