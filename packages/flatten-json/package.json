@@ -11,7 +11,7 @@
     "name": "Ruslan Gonzalez",
     "email": "ruslanguns@gmail.com"
   },
-  "homepage": "https://github.com/ruslanguns/ruso-monorepo#readme",
+  "homepage": "https://github.com/ruslanguns/ruso-monorepo/tree/master/packages/flatten-json",
   "license": "MIT",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
