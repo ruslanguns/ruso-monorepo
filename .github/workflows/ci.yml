@@ -4,16 +4,9 @@ on:
   pull_request:
     branches:
       - master
-    paths:
-      - 'integration/**'
-      - 'packages/**'
   push:
     branches:
       - master
-    paths:
-      - 'integration/**'
-      - 'packages/**'
-
 jobs:
   test:
     runs-on: ubuntu-latest
