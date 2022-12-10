@@ -1,0 +1,39 @@
+{
+  "name": "@ruso/flatten-json",
+  "version": "0.1.0-rc1",
+  "description": "FlattenJSON is a utility function for flattening JSON objects into a single-level object with keys representing the accessor path to the value",
+  "keywords": [
+    "common",
+    "tools",
+    "utils"
+  ],
+  "author": {
+    "name": "Ruslan Gonzalez",
+    "email": "ruslanguns@gmail.com"
+  },
+  "homepage": "https://github.com/ruslanguns/ruso-monorepo#readme",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruslanguns/ruso-monorepo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ruslanguns/ruso-monorepo/issues"
+  },
+  "scripts": {
+    "prebuild": "rimraf lib",
+    "build": "tsc -p tsconfig.build.json",
+    "postbuild": "sh postbuild.sh",
+    "lint": "eslint --ext .ts ./src/",
+    "test": "jest"
+  },
+  "gitHead": "3412d6deb0dd6a3fcf6b5f7f7f5f87bed87d69a7"
+}
