@@ -32,6 +32,5 @@
   },
   "typeRoots": [
     "../../node_modules/@types"
-  ],
-  "gitHead": "b22b81a71efbe299648e674bca47b29d5f64ab92"
+  ]
 }

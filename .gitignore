@@ -5,6 +5,7 @@ node_modules/
 *.tsbuildinfo
 !**/**/src/lib
 
+.angular
 
 # Logs
 logs

@@ -2,9 +2,12 @@ const baseConfig = require('../../jest.config');
 
 module.exports = {
   ...baseConfig,
-  rootDir: '',
+  globals: {
+    'ts-jest': {
+      allowSyntheticDefaultImports: true,
+    },
+  },
   roots: ['<rootDir>/src'],
-  preset: 'jest-preset-angular',
   modulePaths: ['<rootDir>/src'],
   transform: {
     '^.+\\.js$': 'babel-jest',

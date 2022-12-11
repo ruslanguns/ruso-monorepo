@@ -3,10 +3,10 @@
   "compilerOptions": {
     "module": "esnext",
     "outDir": "lib",
+    "declarationMap": true,
     "target": "ES2022",
     "declaration": true,
     "inlineSources": true,
-    "types": [],
     "lib": ["dom", "es2018"]
   },
   "angularCompilerOptions": {

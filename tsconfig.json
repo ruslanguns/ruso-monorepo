@@ -15,7 +15,8 @@
     "target": "ES2022",
     "noUnusedLocals": false,
     "allowJs": false,
-    "lib": ["ES2022", "dom"]
+    "lib": ["ES2022", "dom"],
+    "esModuleInterop": true
   },
   "exclude": ["node_modules", "lib"],
   "angularCompilerOptions": {

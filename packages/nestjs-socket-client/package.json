@@ -39,6 +39,5 @@
   },
   "peerDependencies": {
     "socket.io-client": "*"
-  },
-  "gitHead": "a196aea7df164ddb6a42c50078c2f3c67676fe6d"
+  }
 }
