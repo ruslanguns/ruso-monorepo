@@ -8,7 +8,6 @@ import {
 import { DiscoveryService, MetadataScanner, Reflector } from '@nestjs/core';
 import { InstanceWrapper } from '@nestjs/core/injector/instance-wrapper';
 import { Socket } from 'socket.io-client';
-import { DefaultEventsMap } from 'socket.io-client/build/typed-events';
 import {
   SOCKET_EVENT_METADATA,
   SOCKET_IO_CLIENT,
@@ -24,7 +23,7 @@ export class SocketIoClientEventLoader
     @Inject(SOCKET_OPTIONS)
     private readonly socketOptions: { autoConnect?: boolean },
     @Inject(SOCKET_IO_CLIENT)
-    private readonly socket: Socket<DefaultEventsMap, DefaultEventsMap>,
+    private readonly socket: Socket,
     private readonly discoveryService: DiscoveryService,
     private readonly metadataScanner: MetadataScanner,
     private readonly reflector: Reflector,

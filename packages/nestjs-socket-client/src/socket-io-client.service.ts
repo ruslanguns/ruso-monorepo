@@ -5,18 +5,17 @@ import {
   Logger,
 } from '@nestjs/common';
 import { Socket } from 'socket.io-client';
-import { DefaultEventsMap } from 'socket.io-client/build/typed-events';
 import { SOCKET_OPTIONS } from './constants';
 import { SocketIoClientOptions } from './interfaces/socket-io-client-options.interface';
 
 interface ISocketIoClientService {
-  connect(): Promise<Socket<DefaultEventsMap, DefaultEventsMap>>;
+  connect(): Promise<Socket>;
 }
 
 @Injectable()
 export class SocketIoClientService implements ISocketIoClientService {
   private readonly logger: Logger;
-  private _socketIoConnection: Socket<DefaultEventsMap, DefaultEventsMap>;
+  private _socketIoConnection: Socket;
 
   constructor(
     @Inject(SOCKET_OPTIONS)
