@@ -27,7 +27,7 @@
   },
   "scripts": {
     "prebuild": "rimraf lib",
-    "build": "ng build --prod --project @ruso/angular",
+    "build": "ng build --project @ruso/angular",
     "test": "jest --config ./jest.config.js"
   },
   "typeRoots": [
