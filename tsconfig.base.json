@@ -1,0 +1,29 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./packages",
+    "outDir": "",
+    "module": "ES2022",
+    "sourceMap": true,
+    "noLib": false,
+    "declaration": true,
+    "removeComments": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "ES2022",
+    "noUnusedLocals": false,
+    "allowJs": false,
+    "lib": ["ES2022", "dom"],
+    "esModuleInterop": true,
+    "paths": {
+      "@ruso/echo-test": ["packages/echo-test/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "lib"],
+  "angularCompilerOptions": {
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true
+  }
+}
