@@ -8,7 +8,7 @@ on:
         description: 'Select an option'
         required: true
         options:
-        - ci
+          - ci
 
 jobs:
   app-test:

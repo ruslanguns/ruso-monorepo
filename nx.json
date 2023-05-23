@@ -15,7 +15,15 @@
     "build": {
       "dependsOn": ["^build"],
       "outputs": ["{projectRoot}/dist"]
+    },
+    "test": {
+      "inputs": ["default", "^default", "{workspaceRoot}/jest.preset.js"]
     }
   },
-  "defaultBase": "master"
+  "defaultBase": "master",
+  "cli": {
+    "packageManager": "yarn",
+    "analytics": false
+  },
+  "defaultProject": "integration-nestjs-socket-server"
 }

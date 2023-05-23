@@ -1,0 +1,19 @@
+{
+  "projectType": "library",
+  "sourceRoot": "packages/angular/src",
+  "prefix": "lib",
+  "targets": {
+    "build": {
+      "executor": "@angular-devkit/build-angular:ng-packagr",
+      "options": {
+        "tsConfig": "packages/angular/tsconfig.lib.json",
+        "project": "packages/angular/ng-package.json"
+      },
+      "configurations": {
+        "production": {
+          "tsConfig": "packages/angular/tsconfig.lib.prod.json"
+        }
+      }
+    }
+  }
+}
