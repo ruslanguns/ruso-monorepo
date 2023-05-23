@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.1.0](https://github.com/ruslanguns/ruso-monorepo/compare/@ruso/nestjs-socket-client@0.0.3...@ruso/nestjs-socket-client@0.1.0) (2023-05-23)
+
+### Features
+
+- add new library echo-run ([2cf6434](https://github.com/ruslanguns/ruso-monorepo/commit/2cf6434094ccfab7b374ecd64e529a3f9fd48843))
+
 ## [0.0.3](https://github.com/ruslanguns/ruso-monorepo/compare/@ruso/nestjs-socket-client@0.0.2...@ruso/nestjs-socket-client@0.0.3) (2022-12-11)
 
 ### Bug Fixes
