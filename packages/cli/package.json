@@ -42,7 +42,7 @@
     "@ruso/common": "^0.1.1",
     "chalk": "4.1.2",
     "clear": "0.1.0",
-    "faker": "5.5.3",
+    "faker": "6.6.6",
     "figlet": "1.5.2",
     "inquirer": "7.3.3",
     "yargs": "16.0.3"
