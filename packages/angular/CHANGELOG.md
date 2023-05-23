@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.4](https://github.com/ruslanguns/ruso-monorepo/compare/@ruso/angular@0.1.3...@ruso/angular@0.1.4) (2023-05-23)
+
+**Note:** Version bump only for package @ruso/angular
+
 ## [0.1.3](https://github.com/ruslanguns/ruso-monorepo/compare/@ruso/angular@0.1.2...@ruso/angular@0.1.3) (2022-12-11)
 
 ### Bug Fixes
