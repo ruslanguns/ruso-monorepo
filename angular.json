@@ -3,6 +3,7 @@
   "newProjectRoot": "integration",
   "projects": {
     "@ruso/angular": "packages/angular",
+    "echo-test": "packages/echo-test",
     "integration-nestjs-socket-server": "integration/nestjs/socket-server"
   }
 }
