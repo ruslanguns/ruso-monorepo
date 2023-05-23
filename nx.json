@@ -1,0 +1,29 @@
+{
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/nx-cloud",
+      "options": {
+        "cacheableOperations": ["build", "test", "lint"],
+        "accessToken": "OTYxODg0ZmUtZGQ5Ny00MzVlLTk2NGItZWY2NTQ1YWM4ODA1fHJlYWQtd3JpdGU="
+      }
+    }
+  },
+  "targetDefaults": {
+    "prebuild": {
+      "dependsOn": ["^prebuild"]
+    },
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": ["{projectRoot}/dist"]
+    },
+    "test": {
+      "inputs": ["default", "^default", "{workspaceRoot}/jest.preset.js"]
+    }
+  },
+  "defaultBase": "master",
+  "cli": {
+    "packageManager": "yarn",
+    "analytics": false
+  },
+  "defaultProject": "integration-nestjs-socket-server"
+}

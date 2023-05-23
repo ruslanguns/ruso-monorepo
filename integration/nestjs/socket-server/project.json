@@ -1,0 +1,58 @@
+{
+  "sourceRoot": "integration/nestjs/socket-server/src",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/webpack:webpack",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "target": "node",
+        "compiler": "tsc",
+        "outputPath": "dist/integration/nestjs/socket-server",
+        "main": "integration/nestjs/socket-server/src/main.ts",
+        "tsConfig": "integration/nestjs/socket-server/tsconfig.app.json",
+        "assets": ["integration/nestjs/socket-server/src/assets"]
+      },
+      "configurations": {
+        "production": {
+          "optimization": true,
+          "extractLicenses": true,
+          "inspect": false,
+          "fileReplacements": [
+            {
+              "replace": "integration/nestjs/socket-server/src/environments/environment.ts",
+              "with": "integration/nestjs/socket-server/src/environments/environment.prod.ts"
+            }
+          ]
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nrwl/js:node",
+      "options": {
+        "buildTarget": "integration-nestjs-socket-server:build"
+      },
+      "configurations": {
+        "production": {
+          "buildTarget": "integration-nestjs-socket-server:build:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["integration/nestjs/socket-server/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "integration/nestjs/socket-server/jest.config.ts",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}
