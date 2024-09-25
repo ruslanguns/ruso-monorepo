@@ -125,14 +125,14 @@
   },
   "resolutions": {
     "minimist": "^1.2.2",
-    "@types/express/@types/express-serve-static-core": "4.17.24",
+    "@types/express/@types/express-serve-static-core": "4.19.6",
     "axios": "^1.0.0"
   },
   "dependencies": {
     "@angular/forms": "15.0.3",
     "@ruso/common": "^0.1.1",
     "@swc/helpers": "~0.4.11",
-    "@types/express-serve-static-core": "4.17.31",
+    "@types/express-serve-static-core": "4.19.6",
     "chalk": "5.2.0",
     "clear": "0.1.0",
     "faker": "6.6.6",
