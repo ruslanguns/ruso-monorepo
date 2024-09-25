@@ -49,7 +49,7 @@
     "@angular/common": "15.0.3",
     "@angular/compiler": "15.0.3",
     "@angular/compiler-cli": "15.0.3",
-    "@angular/core": "15.0.3",
+    "@angular/core": "15.0.4",
     "@angular/language-service": "15.0.3",
     "@angular/platform-browser": "15.0.3",
     "@angular/platform-browser-dynamic": "15.0.3",
