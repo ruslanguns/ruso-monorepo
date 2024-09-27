@@ -137,7 +137,7 @@
     "clear": "0.1.0",
     "faker": "6.6.6",
     "figlet": "1.5.2",
-    "inquirer": "9.1.4",
+    "inquirer": "9.3.7",
     "minimist": "^1.2.7",
     "socket.io-client": "^4.5.4",
     "yargs": "17.6.2"
