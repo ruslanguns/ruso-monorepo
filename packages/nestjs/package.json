@@ -36,8 +36,8 @@
     "test": "jest"
   },
   "peerDependencies": {
-    "@nestjs/common": "7.6.18",
-    "@nestjs/core": "7.6.18",
+    "@nestjs/common": "10.4.6",
+    "@nestjs/core": "10.4.6",
     "rxjs": "6.6.7"
   },
   "gitHead": "a196aea7df164ddb6a42c50078c2f3c67676fe6d"
