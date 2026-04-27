@@ -124,7 +124,7 @@
     }
   },
   "resolutions": {
-    "minimist": "^1.2.2",
+    "minimist": "^1.2.5",
     "@types/express/@types/express-serve-static-core": "4.17.24",
     "axios": "^1.0.0"
   },
@@ -138,7 +138,7 @@
     "faker": "6.6.6",
     "figlet": "1.5.2",
     "inquirer": "9.1.4",
-    "minimist": "^1.2.7",
+    "minimist": "^1.2.5",
     "socket.io-client": "^4.5.4",
     "yargs": "17.6.2"
   }
