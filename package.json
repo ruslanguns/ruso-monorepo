@@ -46,7 +46,7 @@
     "@angular-devkit/build-ng-packagr": "0.1002.0",
     "@angular/animations": "15.0.3",
     "@angular/cli": "15.0.3",
-    "@angular/common": "15.0.3",
+    "@angular/common": "19.2.16",
     "@angular/compiler": "15.0.3",
     "@angular/compiler-cli": "15.0.3",
     "@angular/core": "15.0.3",
