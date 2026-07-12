@@ -135,7 +135,7 @@
     "@types/express-serve-static-core": "4.17.31",
     "chalk": "5.2.0",
     "clear": "0.1.0",
-    "faker": "6.6.6",
+    "@faker-js/faker": "5.5.3",
     "figlet": "1.5.2",
     "inquirer": "9.1.4",
     "minimist": "^1.2.7",
