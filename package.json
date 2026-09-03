@@ -96,7 +96,7 @@
     "rimraf": "3.0.2",
     "rxjs": "7.6.0",
     "snyk": "1.1069.0",
-    "supertest": "6.3.3",
+    "supertest": "6.3.4",
     "ts-jest": "28.0.5",
     "ts-loader": "9.4.2",
     "ts-node": "10.9.1",
